@@ -22,7 +22,7 @@ a {
 	width: 70%;
 	height: 80%;
 	margin: auto;
-	min-height: 480px;
+	min-height: 550px;
 	max-width: 700px;
 }
 
@@ -182,8 +182,6 @@ i.icon {
 /*MEDIA QUERIES */
 
 
-}
-
 
 @media (min-width: 580px) {
 	.image-wrap img  {
@@ -193,7 +191,8 @@ i.icon {
 
 @media (min-width: 768px) {
 	.wrapper {
-		height: 60%;
+		height: 75%;
+		max-height: 780px;
 	}
 
 	.box {
@@ -201,7 +200,7 @@ i.icon {
 	}
 
 	.social-links-wrapper {
-		height: 40%;
+		height: 25%;
 		width: 70%;
 		margin: auto;
 		max-width: 700px;
